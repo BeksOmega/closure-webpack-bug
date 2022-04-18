@@ -1,0 +1,17 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "make-deps": "closure-make-deps --root closure/goog --root core > deps.js",
+    "webpack": "webpack --config ./webpack.config.js"
+  },
+  "author": "",
+  "devDependencies": {
+    "closure-webpack-plugin": "^2.5.0",
+    "google-closure-deps": "^20220301.0.0",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
